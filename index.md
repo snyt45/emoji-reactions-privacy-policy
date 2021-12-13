@@ -5,15 +5,15 @@
 お客様の個人データの収集、処理、および使用（以下、まとめて「処理」と呼びます）に関する一般的な概要を提供するものとします。収集するデータは可能な限り少なくします。
 
 ## どのような個人データを処理しますか？
-・Googleアカウントのユーザー名
-Google MeetでGoogleアカウントのユーザー名を表示し、誰が反応したのかを確認するために処理します。
-・Slack OAuth Token
-Slack APIを使用して絵文字リストを取得するために処理します。
-・開いているタブのURL情報
-Google MeetのURLを取得するために処理します。
+- Googleアカウントのユーザー名
+  - Google MeetでGoogleアカウントのユーザー名を表示し、誰が反応したのかを確認するために処理します。
+- Slack OAuth Token
+  - Slack APIを使用して絵文字リストを取得するために処理します。
+- 開いているタブのURL情報
+  - Google MeetのURLを取得するために処理します。
 
 ## データはどのくらいの期間保持されますか？
-・Slack OAuth Token
-Chromeのlocal storageに保存されます。入力を削除すると、local storageからも削除されます。
-・リアクションデータ(imgUrl, imgAlt, MeetRoomId, UserName)
-リアルタイムでリアクションを表示するために半永久的にクラウド上のDBに保存されます。DBの容量確保の為、開発者のタイミングでデータを削除することがあります。
+- Slack OAuth Token
+  - Chromeのlocal storageに保存されます。入力を削除すると、local storageからも削除されます。
+- リアクションデータ(imgUrl, imgAlt, MeetRoomId, UserName)
+  - リアルタイムでリアクションを表示するために半永久的にクラウド上のDBに保存されます。DBの容量確保の為、開発者のタイミングでデータを削除することがあります。
